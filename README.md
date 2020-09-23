@@ -3,8 +3,8 @@ The purpose of this simple program is to gather live weather data for a weather 
 
 ### Program Structure
 
-`Weather_Scrape_Lambda.py`, contains the main function to gather the data from the website
-`lambda_function.py`, contains the main code for the Lambda function (enter your S3 bucket name)
+- `Weather_Scrape_Lambda.py`, contains the main function to gather the data from the website
+- `lambda_function.py`, contains the main code for the Lambda function (enter your S3 bucket name)
 
 #### Setup Instructions
 
@@ -12,9 +12,9 @@ Create a new Lambda layer on AWS that has access to both the defined functions a
 
 #### Mandatory Python Modules
 
-boto3
-json
-beautiful soup
-requests
-datetime
-regular expressions
+- boto3
+- json
+- beautiful soup
+- requests
+- datetime
+- regular expressions
